@@ -1,4 +1,6 @@
 # Mushroom-Analysis
+##Selected topic:
+- Classifying safe versus poisonous mushrooms.
 
 ## Selected topic:
 - Classifying safe versus poisonous mushrooms.
@@ -12,4 +14,6 @@ Each species is identified as definitely edible, definitely poisonous, or of unk
 
 ## Questions:
 1) Which features are most indicative of a poisonous mushroom?
+
+2) Which features of mushrooms are most palatable?
 
