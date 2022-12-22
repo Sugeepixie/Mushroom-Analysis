@@ -3,7 +3,7 @@
 ## Selected topic:
 - Classifying safe versus poisonous mushrooms.
 
-## Reason for selecting topic
+## Reason for selecting topic:
 - All five of us are massive mushroom enthusiasts and need to ensure that we can survive the upcoming climate apocalypse in the wild.
 
 ## Description of their source of data:
@@ -12,3 +12,8 @@ Each species is identified as definitely edible, definitely poisonous, or of unk
 
 ## Questions:
 1) Which features are most indicative of a poisonous mushroom?
+
+3) Which habitat contains the highest percentage of edible mushrooms?
+
+## Resources:
+https://www.kaggle.com/datasets/uciml/mushroom-classification
