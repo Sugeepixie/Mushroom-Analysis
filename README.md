@@ -7,8 +7,9 @@
 - All five of us are massive mushroom enthusiasts and need to ensure that we can survive the upcoming climate apocalypse in the wild.
 
 ## Description of the data source:
-- CSV file with 8124 instances of mushrooms and their attributes. This data set includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family (pp. 500-525). 
-Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended.
+- CSV file with 8124 instances of mushrooms and their attributes. This data set includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family.  
+- Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended.
+- The data comes from The Audobon Society Field Guide to North American Mushrooms (1981) and was contributed to the UCI Machine Learning Repository in 1987.
 
 ## Description of the communication protocols:
 - Team members will communicate online via methods such as Slack and Zoom, both in and outside of class time. This will achieve our goal of analyzing mushrooms.
