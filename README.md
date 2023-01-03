@@ -19,5 +19,16 @@
 2) Which features of mushrooms are most palatable?
 3) Which habitat contains the highest percentage of edible mushrooms?
 
+## Machine Learning Model:
+ * Load Clean Data
+ * Create Features
+ * Create Target
+ * Split, Train, Test with  train_test_split()
+ * Instantiate the Model with RandomForestClassifier()
+ * Fit the Model with model.fit()
+ * Make Predictions with model.predict()
+ * Calculate Accuracy score with accuracy_score()
+ * Print classifiaction report 
+
 ## Resources:
 https://www.kaggle.com/datasets/uciml/mushroom-classification
