@@ -21,7 +21,7 @@
 4) What populations contain the most edible and most poisonous mushrooms?
 
 ## Machine Learning Model:
-- We want to better understand the classification (edible vs. poisonous) mushrooms belong to based on our dataset. This can be achieved through using the Random Forest Classifier, to precisely classify our data. The Random Forest Classifier combines multiple decision trees algorithms with seperate testing and training sets to operate as an ensemble. Because the decision trees are trained on random subsets of our data, the Random Forest Classifier reduces overfitting and improves overall accuracy. The model also allows us to rank the importance of the input variables and can handle larger datasets. 
+- We want to better understand the classification (edible vs. poisonous) mushrooms belong to based on our dataset. This can be achieved through using the Random Forest Classifier, to precisely classify our data. The Random Forest Classifier combines multiple decision tree algorithms with seperate testing and training sets to operate as an ensemble learning model. Because the decision trees are trained on random subsets of our data, the Random Forest Classifier reduces overfitting and improves overall accuracy. The model also allows us to rank the importance of the input variables and is able to accomodate larger datasets. 
 
 - The following steps will be used for our model:
  * Load clean Data
