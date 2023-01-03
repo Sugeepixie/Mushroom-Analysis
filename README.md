@@ -18,6 +18,7 @@
 1) Which features are most indicative of a poisonous mushroom?
 2) Which features of mushrooms are most palatable?
 3) Which habitat contains the highest percentage of edible mushrooms?
+4) What populations contain the most edible and most poisonous mushrooms?
 
 ## Machine Learning Model:
  * Load clean Data
