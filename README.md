@@ -20,14 +20,14 @@
 3) Which habitat contains the highest percentage of edible mushrooms?
 
 ## Machine Learning Model:
- * Load Clean Data
+ * Load clean Data
  * Create Features
  * Create Target
  * Split, Train, Test with train_test_split()
- * Instantiate the Model with RandomForestClassifier()
- * Fit the Model with model.fit()
+ * Instantiate the model with RandomForestClassifier()
+ * Fit the model with model.fit()
  * Make Predictions with model.predict()
- * Calculate Accuracy score with alanced_accuracy_score()
+ * Calculate Accuracy score with balanced_accuracy_score()
  * Print classifiaction report with classification_report_imbalanced()
 
 ## Resources:
