@@ -14,6 +14,11 @@
 ## Description of the communication protocols:
 - Team members will communicate online via methods such as Slack and Zoom, both in and outside of class time. This will achieve our goal of analyzing mushrooms.
 
+## Outline of the project:
+- We will identify differences in edible versus poisonous mushrooms.
+- This can be achieved by identifying various aspects of mushrooms based on our dataset to determine whether they are edible or poisonous.
+- By classifying our data by different features and creating a target, we can test to confirm safe and poisonous mushrooms and their qualities.
+
 ## Questions:
 1) Which features are most indicative of a poisonous mushroom?
 2) Which features of mushrooms are most palatable?
