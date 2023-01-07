@@ -48,4 +48,8 @@ https://docs.google.com/presentation/d/1TcVUXv8PpJf7bvGHLgkctSf4tc1Di38AYmpPCqDl
 https://www.kaggle.com/datasets/uciml/mushroom-classification
 
 ## Code comments to add:
-- 
+- Import dependencies
+- Initialize SQLite and create database
+- Read in CSV of mushroom data
+- Create features and target DataFrames
+- Pull list of column headers from features DataFrame
