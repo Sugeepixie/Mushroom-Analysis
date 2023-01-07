@@ -63,3 +63,9 @@ https://www.kaggle.com/datasets/uciml/mushroom-classification
 - Create target table in SQLite database  (cur.execute)
 - Isolate target data from DataFrame
 - Insert ensuing values into target table in SQLite database
+- Read target table from SQLite as pandas DataFrame to ensure it loaded appropriately
+- Declare variables that will execute SQLite query to select all data from target table in SQLite database
+- Print target table to confirm
+- Create variable to join target and features table from SQLite on ID
+- Execute SQLite join created as variable in previous step
+- Print results of SQLite join to confirm targets and features line up correctly
