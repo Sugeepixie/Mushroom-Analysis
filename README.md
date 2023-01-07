@@ -46,3 +46,6 @@ https://docs.google.com/presentation/d/1TcVUXv8PpJf7bvGHLgkctSf4tc1Di38AYmpPCqDl
 
 ## Resources:
 https://www.kaggle.com/datasets/uciml/mushroom-classification
+
+## Code comments to add:
+- 
