@@ -52,4 +52,14 @@ https://www.kaggle.com/datasets/uciml/mushroom-classification
 - Initialize SQLite and create database
 - Read in CSV of mushroom data
 - Create features and target DataFrames
-- Pull list of column headers from features DataFrame
+- Pull list of column headers from features DataFrame and create f string syntax to create features table in SQLite
+- Print "create_features" to ensure that correct column headers have been pulled
+- Create features table in SQLite database  (cur.execute)
+- Isolate features data from DataFrame
+- Insert ensuing values into features table in SQLite database
+- Declare variables that will execute SQLite query to select all data from features table in SQLite database
+- Print features table to confirm
+- Create syntax to create target table in SQLite
+- Create target table in SQLite database  (cur.execute)
+- Isolate target data from DataFrame
+- Insert ensuing values into target table in SQLite database
