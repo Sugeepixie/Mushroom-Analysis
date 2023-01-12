@@ -11,9 +11,6 @@
 - Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended.
 - The data comes from The Audobon Society Field Guide to North American Mushrooms (1981) and was contributed to the UCI Machine Learning Repository in 1987.
 
-## Description of the communication protocols:
-- Team members will communicate online via methods such as Slack and Zoom, both in and outside of class time. This will achieve our goal of analyzing mushrooms.
-
 ## Outline of the project:
 - We will identify differences in edible versus poisonous mushrooms.
 - This can be achieved by identifying various aspects of mushrooms based on our dataset to determine whether they are edible or poisonous.
@@ -46,3 +43,26 @@ https://docs.google.com/presentation/d/1TcVUXv8PpJf7bvGHLgkctSf4tc1Di38AYmpPCqDl
 
 ## Resources:
 https://www.kaggle.com/datasets/uciml/mushroom-classification
+
+## Code comments to add:
+- Import dependencies
+- Initialize SQLite and create database
+- Read in CSV of mushroom data
+- Create features and target DataFrames
+- Pull list of column headers from features DataFrame and create f string syntax to create features table in SQLite
+- Print "create_features" to ensure that correct column headers have been pulled
+- Create features table in SQLite database  (cur.execute)
+- Isolate features data from DataFrame
+- Insert ensuing values into features table in SQLite database
+- Declare variables that will execute SQLite query to select all data from features table in SQLite database
+- Print features table to confirm
+- Create syntax to create target table in SQLite
+- Create target table in SQLite database  (cur.execute)
+- Isolate target data from DataFrame
+- Insert ensuing values into target table in SQLite database
+- Read target table from SQLite as pandas DataFrame to ensure it loaded appropriately
+- Declare variables that will execute SQLite query to select all data from target table in SQLite database
+- Print target table to confirm
+- Create variable to join target and features table from SQLite on ID
+- Execute SQLite join created as variable in previous step
+- Print results of SQLite join to confirm targets and features line up correctly
