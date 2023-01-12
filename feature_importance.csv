@@ -1,0 +1,23 @@
+Importance,Feature
+0.15228304,odor
+0.105484544,gill size
+0.101714775,gill color
+0.100703007,spore print color
+0.082218856,ring type
+0.05442542,stalk root
+0.052590852,population
+0.052446926,gill spacing
+0.051231521,stalk surface below ring
+0.049570038,bruises
+0.046289428,stalk surface above ring
+0.037772199,habitat
+0.028642279,stalk shape
+0.023977983,stalk color above ring
+0.016952589,stalk color below ring
+0.013226571,ring number
+0.011681018,cap color
+0.008532962,cap surface
+0.004728614,cap shape
+0.003508042,gill attachment
+0.002019336,veil color
+0,veil type]
