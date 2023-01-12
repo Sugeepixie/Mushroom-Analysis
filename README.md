@@ -41,6 +41,9 @@
 ## Google slides link:
 https://docs.google.com/presentation/d/1TcVUXv8PpJf7bvGHLgkctSf4tc1Di38AYmpPCqDlXzk/edit#slide=id.p
 
+## Tableau link:
+https://public.tableau.com/app/profile/bianca.calin1055/viz/MushroomAnalysisv_1/Ediblev_Poisonous
+
 ## Resources:
 https://www.kaggle.com/datasets/uciml/mushroom-classification
 
