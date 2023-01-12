@@ -11,9 +11,6 @@
 - Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended.
 - The data comes from The Audobon Society Field Guide to North American Mushrooms (1981) and was contributed to the UCI Machine Learning Repository in 1987.
 
-## Description of the communication protocols:
-- Team members will communicate online via methods such as Slack and Zoom, both in and outside of class time. This will achieve our goal of analyzing mushrooms.
-
 ## Outline of the project:
 - We will identify differences in edible versus poisonous mushrooms.
 - This can be achieved by identifying various aspects of mushrooms based on our dataset to determine whether they are edible or poisonous.
