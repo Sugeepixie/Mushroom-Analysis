@@ -38,7 +38,7 @@
  * Calculate Accuracy score with balanced_accuracy_score()
  * Print classifiaction report with classification_report_imbalanced()
 
-## Google slides link:
+## Google Slides link:
 https://docs.google.com/presentation/d/1TcVUXv8PpJf7bvGHLgkctSf4tc1Di38AYmpPCqDlXzk/edit#slide=id.p
 
 ## Tableau link:
