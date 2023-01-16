@@ -1,3 +1,3 @@
-Header,Predicted 0,Predicted 1
-Actual 0,1048,0
-Actual 1,0,983
+,Predicted edible,Predicted poisonous
+Actual edible,1048,0
+Actual poisonous,0,983
