@@ -50,8 +50,8 @@ Using Label Encoder all textual data was converted into numerical data
 Random Forest classifier Model is our model of choice as it best validates categorical data.
 
 ### Data Training:
-To train the model, the features and target data are split into training and testing sets using the train_test_split() function. 
-To train the model, the features and target data are split into training and testing sets using train_test_split() function. 
+* To train the model, the features and target data are split into training and testing sets using the train_test_split() function. 
+* To train the model, the features and target data are split into training and testing sets using train_test_split() function. 
 
 ### Accuracy Score:
 The current model gives an accuracy score of 100% with Random Forest classifier.
