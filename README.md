@@ -70,25 +70,23 @@ _Potential visualization of confusion matrix to add to Tableau dashboard_
 ## Resources:
 https://www.kaggle.com/datasets/uciml/mushroom-classification
 
-## Code comments to add:
+## Steps for creating database:
 - Import dependencies
-- Initialize SQLite and create database
+- Initialize SQLite and create mushrooms.db database
 - Read in CSV of mushroom data
 - Create features and target DataFrames
-- Pull list of column headers from features DataFrame and create f string syntax to create features table in SQLite
+- Pull list of column headers from features DataFrame and use f string syntax to create features table in SQLite
 - Print "create_features" to ensure that correct column headers have been pulled
 - Create features table in SQLite database  (cur.execute)
 - Isolate features data from DataFrame
-- Insert ensuing values into features table in SQLite database
-- Declare variables that will execute SQLite query to select all data from features table in SQLite database
-- Print features table to confirm
+- Insert ensuing values into features table in SQLite database (cur.executemany)
 - Create syntax to create target table in SQLite
 - Create target table in SQLite database  (cur.execute)
 - Isolate target data from DataFrame
 - Insert ensuing values into target table in SQLite database
-- Read target table from SQLite as pandas DataFrame to ensure it loaded appropriately
-- Declare variables that will execute SQLite query to select all data from target table in SQLite database
-- Print target table to confirm
+- Write and execute SQL query to make sure database contains both tables (features and targets)
+
+## Steps for running machine learning algorithm on data from mushrooms.db:
 - Create variable to join target and features table from SQLite on ID
 - Execute SQLite join created as variable in previous step
 - Print results of SQLite join to confirm targets and features line up correctly
