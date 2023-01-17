@@ -13,7 +13,7 @@
 
 ## Outline of the project:
 - We will identify differences in edible versus poisonous mushrooms.
-- This can be achieved by identifying various aspects of mushrooms based on our dataset to determine whether they are edible or poisonous.
+- We do this by identifying which mushroom characteristics in our dataset help indicate their edibility.
 - By classifying our data by different features and creating a target, we can test to confirm safe and poisonous mushrooms and their qualities.
 
 ## Questions:
@@ -23,9 +23,12 @@
 4) What populations contain the most edible and most poisonous mushrooms?
 
 ## Machine Learning Model:
-- We want to better understand the classification (edible vs. poisonous) mushrooms belong to based on our dataset. This can be achieved through using the Random Forest Classifier, to precisely classify our data. 
-- The Random Forest Classifier is an ensemble learning model consisting of several decision tree algorithms trained on random subsets of our data. 
-- By combining multiple (relatively uncorrelated) decision trees, the Random Forest Classifier protects against overfitting and improves overall accuracy. The model also allows us to rank the importance of our input variables, and is able to accomodate larger datasets. 
+- We want to better understand the classification (edible vs. poisonous) of mushrooms in our dataset. This can be achieved using the Random Forest Classifier, 
+to precisely classify our data. 
+- The Random Forest Classifier is our model of choice as it best validates categorical data. It is an ensemble learning model consisting of several decision tree 
+algorithms trained on random subsets of our data. 
+- By combining multiple (relatively uncorrelated) decision trees, the Random Forest Classifier protects against overfitting and improves overall accuracy. The 
+model also allows us to rank the importance of our input variables, and is able to accomodate larger datasets. 
 
 - The following steps will be used for our model:
  * Load clean Data
@@ -36,18 +39,15 @@
  * Fit the model with model.fit()
  * Make Predictions with model.predict()
  * Calculate Accuracy score with balanced_accuracy_score()
- * Print classifiaction report with classification_report_imbalanced()
+ * Print classification report with classification_report_imbalanced()
  
 ### Data Preprocessing:
 Using Label Encoder all textual data was converted into numerical data
 
 ### Features vs Target:
-* The features are a copy of the columns from dataset mushrooms.db (from mushrooms.csv) except 'id'and 'class'. The features cap size, color, bruises, odor, ring type etc, are the variables that help determine whether a mushroom is edible or poisonous.
-* The features are a copy of the columns from dataset mushrooms.db (from mushrooms.csv) except 'id'and 'class'. The features cap size, color, bruises, odor, ring type etc..are the variables that help determine whether a mushroom is edible or poisonous.
-* The target is the 'class' column which indicates wherether a mushroom is  poisonus (1) or edible (0).
-
-### Model Choice: 
-Random Forest classifier Model is our model of choice as it best validates categorical data.
+* The features are a copy of the columns from dataset mushrooms.db (from mushrooms.csv) except 'id'and 'class'. Features such as cap size, color, bruises, odor, 
+ring type and others are the variables that help determine whether a mushroom is edible or poisonous.
+* The target is the 'class' column, which indicates wherether a mushroom is poisonous (1) or edible (0).
 
 ### Data Training:
 * To train the model, the features and target data are split into training and testing sets using the train_test_split() function. 
@@ -66,9 +66,6 @@ https://public.tableau.com/app/profile/bianca.calin1055/viz/MushroomAnalysisv_1/
 _Potential visualization of confusion matrix to add to Tableau dashboard_
 
 ![Potential Confusion Matrix](/confusion_matrix_bar.png)
-
-## Resources:
-https://www.kaggle.com/datasets/uciml/mushroom-classification
 
 ## Steps for creating database in [mushrooms_db_create.ipynb](mushrooms_db_create.ipynb):
 - Import dependencies
@@ -91,7 +88,7 @@ https://www.kaggle.com/datasets/uciml/mushroom-classification
 - Connect to mushrooms.db database
 - Check list of tables in database
 - Create dataframe from joined targets and features tables
-- Encode data in dataframe
+- Using Label Encoder, convert all textual data into numerical data
 - Define the features and target using dataframe drop method and column selection, respectively
 - Split data into training and testing sets
 - Scale the features data using StandardScaler()
@@ -106,3 +103,6 @@ Did our questions get answered?
  Woods has the highest count of edible mushrooms.
  
 ![Habitat_Class](https://user-images.githubusercontent.com/76926148/212822542-6ace6a67-69c7-49f5-b1d7-465fad2e3fdd.PNG)
+
+## Resources:
+https://www.kaggle.com/datasets/uciml/mushroom-classification
