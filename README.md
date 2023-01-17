@@ -70,7 +70,7 @@ _Potential visualization of confusion matrix to add to Tableau dashboard_
 ## Resources:
 https://www.kaggle.com/datasets/uciml/mushroom-classification
 
-## Steps for creating database:
+## Steps for creating database in [mushrooms_db_create.ipynb](mushrooms_db_create.ipynb):
 - Import dependencies
 - Initialize SQLite and create mushrooms.db database
 - Read in CSV of mushroom data
@@ -86,10 +86,18 @@ https://www.kaggle.com/datasets/uciml/mushroom-classification
 - Insert ensuing values into target table in SQLite database
 - Write and execute SQL query to make sure database contains both tables (features and targets)
 
-## Steps for running machine learning algorithm on data from mushrooms.db:
-- Create variable to join target and features table from SQLite on ID
-- Execute SQLite join created as variable in previous step
-- Print results of SQLite join to confirm targets and features line up correctly
+## Steps for running machine learning algorithm in [mushrooms_ml_model.ipynb](mushrooms_ml_model.ipynb):
+- Import dependencies
+- Connect to mushrooms.db database
+- Check list of tables in database
+- Create dataframe from joined targets and features tables
+- Encode data in dataframe
+- Define the features and target using dataframe drop method and column selection, respectively
+- Split data into training and testing sets
+- Scale the features data using StandardScaler()
+- Create a Random Forest classifier, fit the model, and make predictions using the model
+- Generate the confusion matrix, accuracy score and classification report for our results; export them to CSV files
+- Rank feature importance, create corresponding dataframe, and export it to a CSV file
 
 ## Summary:
 Did our questions get answered?
