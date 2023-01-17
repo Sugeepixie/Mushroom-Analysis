@@ -99,4 +99,4 @@ Did our questions get answered?
 
  Woods has the highest count of edible mushrooms.
  
-![Habitat_Class](https://user-images.githubusercontent.com/76926148/212819430-2982f3bf-a491-45df-be27-cb0bff84eee7.PNG)
+![Habitat_Class](https://user-images.githubusercontent.com/76926148/212822542-6ace6a67-69c7-49f5-b1d7-465fad2e3fdd.PNG)
