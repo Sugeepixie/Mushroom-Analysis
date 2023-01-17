@@ -43,7 +43,7 @@ Using Label Encoder all textual data was converted into numerical data
 
 ### Features vs Target:
 * The features are a copy of the columns from dataset mushrooms.db (from mushrooms.csv) except 'id'and 'class'. The features cap size, color, bruises, odor, ring type etc, are the variables that help determine whether a mushroom is edible or poisonous.
-
+* The features are a copy of the columns from dataset mushrooms.db (from mushrooms.csv) except 'id'and 'class'. The features cap size, color, bruises, odor, ring type etc..are the variables that help determine whether a mushroom is edible or poisonous.
 * The target is the 'class' column which indicates wherether a mushroom is  poisonus (1) or edible (0).
 
 ### Model Choice: 
@@ -51,6 +51,7 @@ Random Forest classifier Model is our model of choice as it best validates categ
 
 ### Data Training:
 To train the model, the features and target data are split into training and testing sets using the train_test_split() function. 
+To train the model, the features and target data are split into training and testing sets using train_test_split() function. 
 
 ### Accuracy Score:
 The current model gives an accuracy score of 100% with Random Forest classifier.
