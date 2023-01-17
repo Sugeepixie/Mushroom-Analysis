@@ -95,3 +95,8 @@ https://www.kaggle.com/datasets/uciml/mushroom-classification
 
 ## Summary:
 Did our questions get answered?
+3) Which habitat contains the highest percentage of edible mushrooms? 
+
+ Woods has the highest count of edible mushrooms.
+ 
+![Habitat_Class](https://user-images.githubusercontent.com/76926148/212819430-2982f3bf-a491-45df-be27-cb0bff84eee7.PNG)
