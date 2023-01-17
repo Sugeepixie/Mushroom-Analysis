@@ -37,6 +37,25 @@
  * Make Predictions with model.predict()
  * Calculate Accuracy score with balanced_accuracy_score()
  * Print classifiaction report with classification_report_imbalanced()
+ 
+### Data Preprocessing:
+Using Label Encoder all textual data was converted into numerical data
+
+### Features vs Target:
+* The features are a copy of the columns from dataset mushrooms.db (from mushrooms.csv) except 'id'and 'class'. The features cap size, color, bruises, odor, ring type etc..are the variables that help determine whether a mushroom is edible or poisonous.
+
+* The target is the 'class' column which indicates wherether a mushroom is  poisonus (1) or edible (0).
+
+### Model Choice: 
+Random Forest classifier Model is our model of choice as it best validates categorical data.
+
+### Data Training:
+To train the model, the features and target data are split into training and testing sets using train_test_split() function. 
+
+### Accuracy Score:
+The current model gives an accuracy score of 100% with Random Forest classifier.
+
+![Accuracy score](https://user-images.githubusercontent.com/76926148/212810169-a809de12-380a-406a-a111-1ca668d6f0cc.PNG)
 
 ## Google Slides link:
 https://docs.google.com/presentation/d/1TcVUXv8PpJf7bvGHLgkctSf4tc1Di38AYmpPCqDlXzk/edit#slide=id.p
