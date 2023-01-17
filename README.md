@@ -7,7 +7,7 @@
 - All five of us are massive mushroom enthusiasts and need to ensure that we can survive the upcoming climate apocalypse in the wild.
 
 ## Description of the data source:
-- CSV file with 8124 instances of mushrooms and their attributes. This data set includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family.  
+- CSV file with 8,124 instances of mushrooms and their attributes. This data set includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family.  
 - Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended.
 - The data comes from The Audobon Society Field Guide to North American Mushrooms (1981) and was contributed to the UCI Machine Learning Repository in 1987.
 
@@ -37,12 +37,35 @@
  * Make Predictions with model.predict()
  * Calculate Accuracy score with balanced_accuracy_score()
  * Print classifiaction report with classification_report_imbalanced()
+ 
+### Data Preprocessing:
+Using Label Encoder all textual data was converted into numerical data
 
-## Google slides link:
+### Features vs Target:
+* The features are a copy of the columns from dataset mushrooms.db (from mushrooms.csv) except 'id'and 'class'. The features cap size, color, bruises, odor, ring type etc, are the variables that help determine whether a mushroom is edible or poisonous.
+
+* The target is the 'class' column which indicates wherether a mushroom is  poisonus (1) or edible (0).
+
+### Model Choice: 
+Random Forest classifier Model is our model of choice as it best validates categorical data.
+
+### Data Training:
+To train the model, the features and target data are split into training and testing sets using the train_test_split() function. 
+
+### Accuracy Score:
+The current model gives an accuracy score of 100% with Random Forest classifier.
+
+![Accuracy score](https://user-images.githubusercontent.com/76926148/212810169-a809de12-380a-406a-a111-1ca668d6f0cc.PNG)
+
+## Google Slides link:
 https://docs.google.com/presentation/d/1TcVUXv8PpJf7bvGHLgkctSf4tc1Di38AYmpPCqDlXzk/edit#slide=id.p
 
 ## Tableau link:
 https://public.tableau.com/app/profile/bianca.calin1055/viz/MushroomAnalysisv_1/Ediblev_Poisonous
+
+_Potential visualization of confusion matrix to add to Tableau dashboard_
+
+![Potential Confusion Matrix](/confusion_matrix_bar.png)
 
 ## Resources:
 https://www.kaggle.com/datasets/uciml/mushroom-classification
@@ -69,3 +92,11 @@ https://www.kaggle.com/datasets/uciml/mushroom-classification
 - Create variable to join target and features table from SQLite on ID
 - Execute SQLite join created as variable in previous step
 - Print results of SQLite join to confirm targets and features line up correctly
+
+## Summary:
+Did our questions get answered?
+3) Which habitat contains the highest percentage of edible mushrooms? 
+
+ Woods has the highest count of edible mushrooms.
+ 
+![Habitat_Class](https://user-images.githubusercontent.com/76926148/212822542-6ace6a67-69c7-49f5-b1d7-465fad2e3fdd.PNG)
