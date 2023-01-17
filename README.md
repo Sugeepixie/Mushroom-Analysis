@@ -93,5 +93,5 @@ https://www.kaggle.com/datasets/uciml/mushroom-classification
 - Execute SQLite join created as variable in previous step
 - Print results of SQLite join to confirm targets and features line up correctly
 
-# Summary:
+## Summary:
 Did our questions get answered?
