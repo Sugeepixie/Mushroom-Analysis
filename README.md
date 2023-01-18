@@ -13,6 +13,7 @@
 
 ## Outline of the project:
 - We will identify differences in edible versus poisonous mushrooms.
+- We will do this by identifying which mushroom characteristics in our dataset help indicate their edibility.
 - We do this by identifying which mushroom characteristics in our dataset help indicate their edibility.
 - By classifying our data by different features and creating a target, we can test to confirm safe and poisonous mushrooms and their qualities.
 
@@ -46,7 +47,7 @@ model also allows us to rank the importance of our input variables, and is able 
 Using Label Encoder all textual data was converted into numerical data
 
 ### Features vs Target:
-* The features are a copy of the columns from dataset mushrooms.db (from mushrooms.csv) except 'id'and 'class'. Features such as cap size, color, bruises, odor, 
+* The features are a copy of the columns from dataset mushrooms.db (from mushrooms.csv), excluding 'id'and 'class'. Features such as cap size, color, bruises, odor, 
 ring type and others are the variables that help determine whether a mushroom is edible or poisonous.
 * The target is the 'class' column, which indicates wherether a mushroom is poisonous (1) or edible (0).
 
