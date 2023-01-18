@@ -118,7 +118,8 @@ Notes on suspiciously high accuracy and ideas for further analysis:
 - Someone suggested the models could be overfitted. If we got our hands on more mushroom data, we could test this.
 
 Did our questions get answered?
-We were able to rank the importance of the mushroom features in our Random Forest Classifier model, which helped us answer our first two questions:
+
+- We were able to rank the importance of the mushroom features in our Random Forest Classifier model, which helped us answer our first two questions:
 
 1) Which features are most indicative of a poisonous mushroom?
 
