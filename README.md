@@ -22,6 +22,7 @@
 3) Which habitat contains the highest percentage of edible mushrooms?
 4) What populations contain the most edible and most poisonous mushrooms?
 
+
 ## Machine Learning Model:
 - We want to better understand the classification (edible vs. poisonous) of mushrooms in our dataset. This can be achieved using the Random Forest Classifier, 
 to precisely classify our data. 
@@ -98,11 +99,19 @@ _Potential visualization of confusion matrix to add to Tableau dashboard_
 
 ## Summary:
 Did our questions get answered?
+We were able to rank the importance of the mushroom features in our Random Forest Classifier model, which helped us answer our first two questions:
+
+1) Which features are most indicative of a poisonous mushroom?
+
+2) Which features of mushrooms are most palatable?
+
 3) Which habitat contains the highest percentage of edible mushrooms? 
 
  Woods has the highest count of edible mushrooms.
  
 ![Habitat_Class](https://user-images.githubusercontent.com/76926148/212822542-6ace6a67-69c7-49f5-b1d7-465fad2e3fdd.PNG)
+
+4) What populations contain the most edible and most poisonous mushrooms?
 
 ## Resources:
 https://www.kaggle.com/datasets/uciml/mushroom-classification
