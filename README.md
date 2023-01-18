@@ -111,11 +111,6 @@ _Potential visualization of confusion matrix to add to Tableau dashboard_
 
 ![Accuracy score](https://user-images.githubusercontent.com/76926148/212810169-a809de12-380a-406a-a111-1ca668d6f0cc.PNG)
 
-Notes on suspiciously high accuracy and ideas for further analysis:
-
-- Many other people online who have run this data through machine learning models also achieved 100% accuracy and wondered if they had done something wrong. We looked at comments on other people's questions about this in Kaggle.
-- We could try encoding the data differently. We would need to research pros/cons of one hot encoding vs. label encoding for random forest model, for example.
-- Someone suggested the models could be overfitted. If we got our hands on more mushroom data, we could test this.
 
 Did our questions get answered?
 
@@ -134,6 +129,12 @@ Did our questions get answered?
 4) What populations contain the most edible and most poisonous mushrooms?
 
 ## Recommendations for Future Analysis:
+
+Notes on suspiciously high accuracy and ideas for further analysis:
+
+- Many other people online who have run this data through machine learning models also achieved 100% accuracy and wondered if they had done something wrong. We looked at comments on other people's questions about this in Kaggle.
+- We could try encoding the data differently. We would need to research pros/cons of one hot encoding vs. label encoding for random forest model, for example.
+- Someone suggested the models could be overfitted. If we got our hands on more mushroom data, we could test this.
 
 ## Resources:
 https://www.kaggle.com/datasets/uciml/mushroom-classification
