@@ -113,7 +113,7 @@ We were able to rank the importance of the mushroom features in our Random Fores
 
 4) What populations contain the most edible and most poisonous mushrooms?
 
-## Summary: Recommendations for Future Analysis:
+## Recommendations for Future Analysis:
 
 ## Resources:
 https://www.kaggle.com/datasets/uciml/mushroom-classification
