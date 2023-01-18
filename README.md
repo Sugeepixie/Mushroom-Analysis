@@ -54,10 +54,11 @@ ring type and others are the variables that help determine whether a mushroom is
 ### Data Training:
 * To train the model, the features and target data are split into training and testing sets using the train_test_split() function. 
 
-### Accuracy Score:
-The current model gives an accuracy score of 100% with Random Forest classifier.
+### Accuracy Score and Confusion Matrix:
+* An Accuracy Score and a Confusion Matrix were generated to evaluate the performance of our learning model.
+* The Accuracy Score is the percentage of correct predictions in relation to total predictions.
+* The Confusion Matrix assessed the precision and recall of our model  by creating a table that categorizes outcomes: True positives, false positives, false negatives, and true negatives.
 
-![Accuracy score](https://user-images.githubusercontent.com/76926148/212810169-a809de12-380a-406a-a111-1ca668d6f0cc.PNG)
 
 ## Google Slides link:
 https://docs.google.com/presentation/d/1TcVUXv8PpJf7bvGHLgkctSf4tc1Di38AYmpPCqDlXzk/edit#slide=id.p
@@ -103,7 +104,23 @@ _Potential visualization of confusion matrix to add to Tableau dashboard_
 - Rank feature importance, create corresponding dataframe, and export it to a CSV file
 
 ## Summary:
-Did our questions get answered?
+
+- Results:
+Based on our analysis, we can conclude that there is a high accuracy score of 1.00, meaning that all predicted outcomes were correct. However, in a model with discrete outcomes, such as our Random Forest Classifier, a Confusion Matrix offers a better method to evaluate the model's precision (positive predicive value) and sensitivity (recall). Based on our matrix, our model is extremely precise (1046 mushrooms that were predicted edible were actually edible) and extremely sensitive (983 mushrooms that were predicted poisonous were actually poisonous). 
+
+The F1 score is very low (1.00) meaning that there is no pronounced imbalance between sensitivity and precision.
+
+![Accuracy score](https://user-images.githubusercontent.com/76926148/212810169-a809de12-380a-406a-a111-1ca668d6f0cc.PNG)
+
+- Notes on suspiciously high accuracy and ideas for further analysis:
+
+Many other people online who have run this data through machine learning models also achieved 100% accuracy and wondered if they had done something wrong. We looked at comments on other people's questions about this in Kaggle.
+
+We could try encoding the data differently. We would need to research pros/cons of one hot encoding vs. label encoding for random forest model, for example.
+
+Someone suggested the models could be overfitted. If we got our hands on more mushroom data, we could test this.
+
+- Did our questions get answered?
 We were able to rank the importance of the mushroom features in our Random Forest Classifier model, which helped us answer our first two questions:
 
 1) Which features are most indicative of a poisonous mushroom?
