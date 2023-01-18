@@ -171,4 +171,11 @@ poetry.toml
 
 # End of https://www.toptal.com/developers/gitignore/api/python
 
+# Old files
 Old_files/
+Mushrooms_encoded.csv
+Untitled.ipynb
+mushrooms_db.ipynb
+mushrooms_db2.ipynb
+mushrooms_db3.ipynb
+mushrooom_project.ipynb
