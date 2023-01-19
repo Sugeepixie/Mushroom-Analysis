@@ -18,10 +18,11 @@
 - By classifying our data by different features and creating a target, we can test to confirm safe and poisonous mushrooms and their qualities.
 
 ## Questions:
-1) Which features are most indicative of a poisonous mushroom?
-2) Which features of mushrooms are most palatable?
+1) Can a machine learning model help evaluate whether a mushroom is poisonous or edible?
+2) Which features are most indicative of a poisonous mushroom?
 3) Which habitat contains the highest percentage of edible mushrooms?
 4) What populations contain the most edible and most poisonous mushrooms?
+
 
 
 ## Machine Learning Model:
@@ -114,12 +115,12 @@ _Potential visualization of confusion matrix to add to Tableau dashboard_
 
 Did our questions get answered?
 
-- We were able to rank the importance of the mushroom features in our Random Forest Classifier model, which helped us answer our first two questions:
-
 1) Can a machine learning model help evaluate whether a mushroom is poisonous or edible?
 2) Which features are most indicative of a poisonous mushroom?
+
+We were able to rank the importance of the mushroom features in our Random Forest Classifier model
+
 3) Which habitat contains the highest percentage of edible mushrooms?
-4) What populations contain the most edible and most poisonous mushrooms?
 
  Woods has the highest count of edible mushrooms.
  
