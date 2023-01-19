@@ -116,11 +116,10 @@ Did our questions get answered?
 
 - We were able to rank the importance of the mushroom features in our Random Forest Classifier model, which helped us answer our first two questions:
 
-1) Which features are most indicative of a poisonous mushroom?
-
-2) Which features of mushrooms are most palatable?
-
-3) Which habitat contains the highest percentage of edible mushrooms? 
+1) Can a machine learning model help evaluate whether a mushroom is poisonous or edible?
+2) Which features are most indicative of a poisonous mushroom?
+3) Which habitat contains the highest percentage of edible mushrooms?
+4) What populations contain the most edible and most poisonous mushrooms?
 
  Woods has the highest count of edible mushrooms.
  
