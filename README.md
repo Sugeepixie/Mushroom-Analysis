@@ -14,7 +14,6 @@
 ## Outline of the project:
 - We will identify differences in edible versus poisonous mushrooms.
 - We will do this by identifying which mushroom characteristics in our dataset help indicate their edibility.
-- We do this by identifying which mushroom characteristics in our dataset help indicate their edibility.
 - By classifying our data by different features and creating a target, we can test to confirm safe and poisonous mushrooms and their qualities.
 
 ## Questions:
