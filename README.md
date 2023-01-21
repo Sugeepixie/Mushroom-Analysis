@@ -47,8 +47,8 @@ model also allows us to rank the importance of our input variables and is able t
 Using Label Encoder, all textual data was converted into numerical data.
 
 ### Features vs Target:
-* The features are a copy of the columns from dataset mushrooms.db (from mushrooms.csv), excluding 'id'and 'class'. Features such as cap size, color, bruises, odor, 
-ring type and others are the variables that help determine whether a mushroom is edible or poisonous.
+* The features are a copy of the columns from mushrooms.db (from mushrooms.csv), excluding 'id'and 'class'. Features such as cap size, color, bruises, odor, 
+ring type, and others are the variables that help evaluate whether a mushroom is edible or poisonous.
 * The target is the 'class' column, which indicates wherether a mushroom is poisonous (1) or edible (0).
 
 ### Data Training:
@@ -58,7 +58,6 @@ ring type and others are the variables that help determine whether a mushroom is
 * An Accuracy Score and a Confusion Matrix were generated to evaluate the performance of our learning model.
 * The Accuracy Score is the percentage of correct predictions in relation to total predictions.
 * The Confusion Matrix assessed the precision and recall of our model  by creating a table that categorizes outcomes: True positives, false positives, false negatives, and true negatives.
-
 
 ## Google Slides link:
 https://docs.google.com/presentation/d/1TcVUXv8PpJf7bvGHLgkctSf4tc1Di38AYmpPCqDlXzk/edit#slide=id.p
@@ -72,7 +71,7 @@ https://public.tableau.com/app/profile/suganya.balasubramanian/viz/MushroomClass
 
 _Potential visualization of confusion matrix to add to Tableau dashboard_
 
-![Potential Confusion Matrix](/confusion_matrix_bar.png)
+![Potential Confusion Matrix](Images/confusion_matrix_bar.png)
 
 ## Steps for creating database in [mushrooms_db_create.ipynb](mushrooms_db_create.ipynb):
 - Import dependencies
