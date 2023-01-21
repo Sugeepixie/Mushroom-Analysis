@@ -17,7 +17,7 @@
 - By classifying our data by different features and creating a target, we can test to confirm safe and poisonous mushrooms and their qualities.
 
 ## Questions:
-1) Can a machine learning model help evaluate whether a mushroom is poisonous or edible?
+1) Can a machine learning model help evaluate whether a mushroom is edible or poisonous?
 2) Which features are most indicative of a poisonous mushroom?
 3) Which habitat contains the highest percentage of edible mushrooms?
 4) What populations contain the most edible and most poisonous mushrooms?
@@ -25,26 +25,26 @@
 
 
 ## Machine Learning Model:
-- We want to better understand the classification (edible vs. poisonous) of mushrooms in our dataset. This can be achieved using the Random Forest Classifier, 
+- We want to better understand the classification (edible vs. poisonous) of mushrooms in our dataset. This can be achieved using the Random Forest Classifier 
 to precisely classify our data. 
 - The Random Forest Classifier is our model of choice as it best validates categorical data. It is an ensemble learning model consisting of several decision tree 
 algorithms trained on random subsets of our data. 
 - By combining multiple (relatively uncorrelated) decision trees, the Random Forest Classifier protects against overfitting and improves overall accuracy. The 
-model also allows us to rank the importance of our input variables, and is able to accomodate larger datasets. 
+model also allows us to rank the importance of our input variables and is able to accomodate larger datasets. 
 
 - The following steps will be used for our model:
- * Load clean Data
- * Create Features
- * Create Target
- * Split, Train, Test with train_test_split()
+ * Load clean data
+ * Create features table
+ * Create target table
+ * Split, train, test with train_test_split()
  * Instantiate the model with RandomForestClassifier()
  * Fit the model with model.fit()
- * Make Predictions with model.predict()
- * Calculate Accuracy score with balanced_accuracy_score()
+ * Make predictions with model.predict()
+ * Calculate accuracy score with balanced_accuracy_score()
  * Print classification report with classification_report_imbalanced()
  
 ### Data Preprocessing:
-Using Label Encoder all textual data was converted into numerical data
+Using Label Encoder, all textual data was converted into numerical data.
 
 ### Features vs Target:
 * The features are a copy of the columns from dataset mushrooms.db (from mushrooms.csv), excluding 'id'and 'class'. Features such as cap size, color, bruises, odor, 
