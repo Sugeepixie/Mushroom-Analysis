@@ -61,9 +61,8 @@ ring type, and others are the variables that help evaluate whether a mushroom is
 https://docs.google.com/presentation/d/1TcVUXv8PpJf7bvGHLgkctSf4tc1Di38AYmpPCqDlXzk/edit#slide=id.p
 
 ## Tableau link:
-https://public.tableau.com/app/profile/bianca.calin1055/viz/MushroomAnalysisv_1/Ediblev_Poisonous
-https://public.tableau.com/app/profile/suganya.balasubramanian/viz/MushroomClass_Habitat/Habitat_Class
-https://public.tableau.com/app/profile/suganya.balasubramanian/viz/MushroomClass_Habitat_Percent/Habitat_Percent
+
+https://public.tableau.com/app/profile/suganya.balasubramanian/viz/MushroomClassification_16740899494080/MushroomClassification
 
 *Note: These databases will be combined in later steps*
 
