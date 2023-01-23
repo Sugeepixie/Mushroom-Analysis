@@ -97,7 +97,7 @@ _Potential visualization of confusion matrix to add to Tableau dashboard_
 - Split data into training and testing sets
 - Scale the features data using StandardScaler()
 - Create a Random Forest classifier, fit the model, and make predictions using the model
-- Generate the confusion matrix, accuracy score and classification report for our results; export them to CSV files
+- Generate dataframe containing actual and predicted test values; export it to a CSV file for purposes of creating confusion matrix visualization in Tableau
 - Rank feature importance, create corresponding dataframe, and export it to a CSV file
 
 ## Summary:
