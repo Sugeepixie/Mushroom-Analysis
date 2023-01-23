@@ -22,8 +22,6 @@
 3) Which habitat contains the highest percentage of edible mushrooms?
 4) What populations contain the most edible and most poisonous mushrooms?
 
-
-
 ## Machine Learning Model:
 - We want to better understand the classification (edible vs. poisonous) of mushrooms in our dataset. This can be achieved using the Random Forest Classifier 
 to precisely classify our data. 
