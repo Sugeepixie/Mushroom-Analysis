@@ -113,7 +113,9 @@ Yes, We did receive a 100% accuracy score from our machine learning model.
 
 2) Which features are most indicative of a poisonous mushroom?
 
-We were able to rank the importance of the mushroom features in our Random Forest Classifier model
+We were able to rank the importance of the mushroom features in our Random Forest Classifier model. We were able to determine that odor had the highest importance score of over 0.14, followed by gill size and gill color. The importance scores are relatively low, which suggests that it is the combination of all mushroom features that indicates whether or not it is poisonous, rather than one feature in particular.
+
+![FeaturesBar](https://raw.githubusercontent.com/Sugeepixie/Mushroom-Analysis/main/Images/FeaturesBar.PNG)
 
 3) Which habitat contains the highest percentage of edible mushrooms?
 
