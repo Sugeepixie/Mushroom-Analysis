@@ -64,11 +64,6 @@ https://docs.google.com/presentation/d/1TcVUXv8PpJf7bvGHLgkctSf4tc1Di38AYmpPCqDl
 
 https://public.tableau.com/app/profile/suganya.balasubramanian/viz/MushroomClassification_16740899494080/MushroomClassification
 
-*Note: These databases will be combined in later steps*
-
-_Potential visualization of confusion matrix to add to Tableau dashboard_
-
-![Potential Confusion Matrix](Images/confusion_matrix_bar.png)
 
 ## Steps for creating database in [mushrooms_db_create.ipynb](mushrooms_db_create.ipynb):
 - Import dependencies
@@ -111,18 +106,24 @@ _Potential visualization of confusion matrix to add to Tableau dashboard_
 Did our questions get answered?
 
 1) Can a machine learning model help evaluate whether a mushroom is poisonous or edible?
+
+Yes, We did receive a 100% accuracy score from our machine learning model.
+
+![Mushroom_ConfusionMatrix](https://user-images.githubusercontent.com/76926148/214184074-812fcd1e-e576-4ccd-b1ea-3b7afb818d77.PNG)
+
 2) Which features are most indicative of a poisonous mushroom?
 
 We were able to rank the importance of the mushroom features in our Random Forest Classifier model
 
 3) Which habitat contains the highest percentage of edible mushrooms?
 
- Mushrooms growing on waste are 100% edible. Among all habitats Woods has the highest percentage of edible mushrooms.
+ Among all habitats Woods has the highest percentage of edible mushrooms.
  
- ![HabitatPercent](https://user-images.githubusercontent.com/76926148/214179659-0bea0e73-15d4-4656-bc92-f49a9b3082e1.PNG)
-![HabitatPercent_1](https://user-images.githubusercontent.com/76926148/214180423-cd4a8b1b-f296-4e1e-928b-75060b80b0aa.PNG)
+![HabitatPercent_1](https://user-images.githubusercontent.com/76926148/214183227-92f987e5-d9bf-4a0a-8c46-dcde071b81dc.PNG)
 
 4) What populations contain the most edible and most poisonous mushrooms?
+
+Our dataset includes six classifications for mushroom population characteristics, ranging from "solitary" to "several" to " abundant." The biggest population category, as measured by mushroom count, was "several," with the majority of the mushrooms in that group being poisonous. The "abundant" group had a much lower mushroom count, but all of the mushrooms in that category were edible.
 
 ## Recommendations for Future Analysis:
 
