@@ -117,9 +117,10 @@ We were able to rank the importance of the mushroom features in our Random Fores
 
 3) Which habitat contains the highest percentage of edible mushrooms?
 
- Woods has the highest count of edible mushrooms.
+ Mushrooms growing on waste are 100% edible. Among all habitats Woods has the highest percentage of edible mushrooms.
  
-![Habitat_Class](https://user-images.githubusercontent.com/76926148/212822542-6ace6a67-69c7-49f5-b1d7-465fad2e3fdd.PNG)
+ ![HabitatPercent](https://user-images.githubusercontent.com/76926148/214179659-0bea0e73-15d4-4656-bc92-f49a9b3082e1.PNG)
+![HabitatPercent_1](https://user-images.githubusercontent.com/76926148/214180423-cd4a8b1b-f296-4e1e-928b-75060b80b0aa.PNG)
 
 4) What populations contain the most edible and most poisonous mushrooms?
 
