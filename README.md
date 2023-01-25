@@ -98,7 +98,7 @@ https://public.tableau.com/app/profile/suganya.balasubramanian/viz/MushroomClass
 
 - Based on our analysis, we can conclude that there is a high accuracy score of 1.00, meaning that all predicted outcomes were correct. 
 - In a model with discrete outcomes, such as our Random Forest Classifier, a Confusion Matrix offers a better method to evaluate the model's precision (positive predicive value) and sensitivity (recall). Based on our matrix, our model is extremely precise (983 mushrooms that were predicted poisonous were actually poisonous)   and extremely sensitive (1046 mushrooms that were predicted edible were actually edible).
-- The F1 score is very low (1.00) meaning that there is no pronounced imbalance between sensitivity and precision.
+- The F1 score is 1.00, meaning that there is no pronounced imbalance between sensitivity and precision.
 
 ![Accuracy score](https://user-images.githubusercontent.com/76926148/212810169-a809de12-380a-406a-a111-1ca668d6f0cc.PNG)
 
